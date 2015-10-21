@@ -1,0 +1,54 @@
+<div ng-controller="SettingsCtrl" id="Settings">
+
+<div id="title0" ng-click="title0Tap()">
+  <body style="background-color:slategrey">
+<h1><p align="center"><font color="skyblue">Settings</font></p></h1>
+</body>
+</div>
+
+<div id="Notifications" ng-click="NotificationsTap()">
+<ul class="list">
+  <li class="item item-toggle">
+     Notifications
+     <label class="toggle toggle-positive">
+       <input type="checkbox" ng-model="Notifications.value">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+  </li>
+</ul>
+
+</div>
+
+<div id="Sound" ng-click="SoundTap()">
+<ul class="list">
+  <li class="item item-toggle">
+     Sound
+     <label class="toggle toggle-positive">
+       <input type="checkbox" ng-model="Sound.value">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+  </li>
+</ul>
+
+</div>
+
+<div id="Vibration" ng-click="VibrationTap()">
+<ul class="list">
+  <li class="item item-toggle">
+     Vibrate
+     <label class="toggle toggle-positive">
+       <input type="checkbox" ng-model="Vibration.value">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+  </li>
+</ul>
+
+</div>
+
+</div>
